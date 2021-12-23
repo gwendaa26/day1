@@ -1,0 +1,28 @@
+.paragraph {
+    color: red;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: salmon;
+    background-color: yellow;
+    background-image: url("anna.webp");
+    background-repeat: repeat-y;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li a {
+    display: inline;
+    width: 60px;
+    background-color: #dddddd;
+  }

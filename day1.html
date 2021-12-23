@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="day2.css">
+
+    <script src="day1.js">
+      // function myFunction() {
+      //   alert("Hello! I am an alert box!");
+      // }
+    </script>
+
+    <title>Document</title>
+</head>
+<body>
+    <h2>Change HTML value</h2>
+    <p id="demo">JavaScript can change HTML content.</p>
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+    
+    <h2>Change HTML attributes</h2>
+    <p>JavaScript can change HTML attribute values.</p>
+
+    <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+    
+    <div style="align-items: center;">
+
+      <img id="myImage" src="bg-geng.jpg" style="width:200px">
+      <button onclick="document.getElementById('myImage').src='GenGirl_Logo.png'">Turn to Gen G logo</button>
+      <button onclick="document.getElementById('myImage').src='anna.webp'">Turn to Anna Frozen</button>
+    </div>
+    <!-- <button onclick="document.getElementById('myImage').src='GenGirl_Logo.png'">Turn to Gen G logo</button>
+    
+    <img id="myImage" src="bg-geng.jpg" style="width:200px">
+    
+    <button onclick="document.getElementById('myImage').src='anna.webp'">Turn to Anna Frozen</button> -->
+
+    <div id="bg" style="background-color:skyblue;">
+
+        <h2>Change background color using Javascript</h2>
+       <p id="paragraph">JavaScript can change the style of an HTML element.</p>
+        <button style="background-color: aqua;" type="button" onclick="document.getElementById('paragraph').style.fontSize='50px'">Click Me!</button>
+     
+       </div>
+
+       ----
+
+       <!-- Hide... -->
+       <h2>Hide HTML Element using JavaScript</h2>
+
+
+
+       <p id="demo">JavaScript HTML dan CSS</p>
+       <button type="button">Click here</button>
+
+
+
+       <!-- <button type="button" onclick='document.getElementById("hide").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+       <button type="button" onclick="document.getElementById('hide').style.display='block'">Show Text</button> -->
+ 
+       <button onclick="myFunction()">Try it</button>
+
+
+</body>
+</html>
